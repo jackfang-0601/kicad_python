@@ -45,7 +45,7 @@ Cloning a component makes an exact copy of the specified element, which can then
 
 sch.symbol.R2.move(100,100)
 ```
-We could move any elements use the fucntion 'move(x_value, y_value)'
+We could move any elements use the fucntion `move(x_value, y_value)`
 
 In this case, the component is moved 50 units to the right and 100 units down.
 
