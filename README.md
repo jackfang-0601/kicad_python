@@ -45,6 +45,30 @@ Cloning a component makes an exact copy of the specified element, which can then
 
 sch.symbol.R2.move(100,100)
 ```
-We could move any elements use the fucntion `move(x_value, y_value)`
+We could move any elements use the fucntion 'move(x_value, y_value)'
 
-in this case, the component is moved 50 units to the right and 100 units down.
+In this case, the component is moved 50 units to the right and 100 units down.
+
+## Modify Component Values
+You can modify the properties of components in the schematic. Here’s an example of how to change the value of resistor `R1` to `100k`:
+
+```python
+# Modify the value of the component R1
+sch.symbol.R1.Value.value = '100k'
+```
+
+## Save Changes to the Schematic
+Once you've made all your changes, don’t forget to save them by writing the schematic file. You won't able to see the changes unitl you write the schematic and reopen the file in Kicad :
+
+```python
+# Save the changes to the schematic file
+sch.write("file path")
+```
+Make sure to replace `file path` with the actual path where you want to save your schematic.
+
+# Conclusion
+In this tutorial, you’ve learned how to use Python to automate basic manipulations in a KiCad schematic. You can build on this by exploring more complex modifications and automating larger workflows. This approach helps streamline the design process, especially for repetitive tasks.
+
+Feel free to experiment with more components, transformations, and values in your KiCad designs using Python!
+
+Feel free to make any adjustments if you like!
