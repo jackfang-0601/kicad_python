@@ -10,7 +10,7 @@ Modify component values.
 Save your changes to the schematic.
 
 # Credit
-Special thanks to psychogenic's [KiCad Skip](https://github.com/psychogenic/kicad-skip?tab=readme-ov-file)repository, which inspired this tutorial and provided valuable insights into integrating Python with KiCad.
+Special thanks to psychogenic's [KiCad Skip](https://github.com/psychogenic/kicad-skip?tab=readme-ov-file) repository, which inspired this tutorial and provided valuable insights into integrating Python with KiCad.
 # Load the library
 We are using the library called kicad-skip.
 
